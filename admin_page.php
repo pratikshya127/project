@@ -88,17 +88,6 @@ $number_of_orders = mysqli_num_rows($select_orders);
 <p>order placed</p>
 </div>
 
-
-
-<div class ="box">
-<?php
-$select_products = mysqli_query($conn, "SELECT * FROM products") or die('Query Failed');
-$number_of_products = mysqli_num_rows($select_products);
-?>
-<h3><?php echo $number_of_products; ?></h3>
-<p>Products Added</p>
-</div>
-
 <div class ="box">
 <?php
 $select_products = mysqli_query($conn, "SELECT * FROM products") or die('Query Failed');
