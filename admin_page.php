@@ -60,7 +60,7 @@ while($fetch_pendings = mysqli_fetch_assoc($select_pending)){
 };
 ?>
 <h3><?php echo $total_pendings;?></h3>
-<p>total pending</p>
+<p>Total pending</p>
 </div>
 
 <div class ="box">
@@ -75,7 +75,7 @@ while($fetch_completed = mysqli_fetch_assoc($select_completed)){
 };
 ?>
 <h3><?php echo $total_completed; ?></h3>
-<p>completed payments</p>
+<p>Completed payments</p>
 </div>
 
 
@@ -85,7 +85,7 @@ $select_orders = mysqli_query($conn, "SELECT * FROM orders") or die('query faile
 $number_of_orders = mysqli_num_rows($select_orders);
 ?>
 <h3><?php echo $number_of_orders;   ?></h3>
-<p>order placed</p>
+<p>Order placed</p>
 </div>
 
 <div class ="box">

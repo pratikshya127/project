@@ -271,14 +271,14 @@ border: var(--border);
          background-color:var(--white);
          border-top:var(--border);
          border-bottom:var(--border);
-         clip-path: polygon(0 0, 100% 0, 0 0);
+         clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
        }
 
        .header .flex .navbar.active{
-        display: inline-block;
-
-
+                 clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
        }
+
+       
       .header .flex .navbar a{
         margin:2rem;
         display: block;
